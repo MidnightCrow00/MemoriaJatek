@@ -17,7 +17,8 @@ export default class Jatek {
     if(this.#kivalasztottak.length===2){
         if(this.#kivalasztottak[0]===this.#kivalasztottak[1]){
             //vissza forditja a két elemet és ki kell üriteni a  listát
-            
+            this.#kivalasztottak.pop()
+            this.#kivalasztottak.pop()
         }
     }
   }
