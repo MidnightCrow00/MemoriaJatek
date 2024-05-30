@@ -3,6 +3,7 @@ export default class Kartya {
   #allapot = true; //True - látható a kép, False - a háttér látható
   #szuloElem;
   #kepElem;
+  #kattinthato=false;
   constructor(kep, szuloElem) {
     this.#kep = kep;
     this.#szuloElem = szuloElem;
